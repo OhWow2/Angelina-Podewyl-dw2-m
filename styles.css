@@ -1,0 +1,36 @@
+body {
+    background-color: #F0F0F0;
+
+}
+h2,h3,h4{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center
+}
+
+p {
+    font-family: 'Catamaran', sans-serif;
+}
+
+
+.largo {
+    background-color: #D7E5CA;
+}
+
+
+.contenedor{
+    background-color: #9ED2BE;
+    display: list-item;
+    font-family: 'Catamaran', sans-serif;
+    height: 30px;
+    width: 100px;
+    margin: 20px;
+    box-sizing: content-box;
+    position: static;
+    top: px;
+    text-align: left;
+    
+}
