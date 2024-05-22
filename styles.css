@@ -1,36 +1,84 @@
 body {
-    background-color: #F0F0F0;
+    background: url(miku.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+}
 
-}
-h2,h3,h4{
+h3,h4{
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
+    text-align:center ;
+    font-size: 25px;
+    color: #fff;
 }
+
+h5 {
+    color: #fff;
+    font-size: 11px;
+}
+
 h1{
     font-family: 'Montserrat', sans-serif;
-    text-align: center
+    text-align: center;
+    color: #fff ;
 }
 
-p {
-    font-family: 'Catamaran', sans-serif;
+.registro {
+    background-color: transparent;
+    font-family:'Montserrat' ;
+    display: flex;
+    height: 400px;
+    width: 300px;
+    box-sizing:border-box;
+    position: relative;
+    left: 520px;
+    top: 50px;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 0px 30px ;
+    border: white 1px solid;
+    backdrop-filter: blur(15px);
+    box-shadow: 10px;
+    }
+
+.llenar {
+    width: 100%;
+    margin:20px 0;
 }
 
-
-.largo {
-    background-color: #D7E5CA;
+.llenar input {
+    width: 100%;
+    height: 18%;
+    background: transparent;
+    border: white 1px solid;
+    outline: none;
+    border-radius: 50px;
+    padding: 5px;
+    color: #fff;
 }
 
+.llenar input::placeholder {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
 
-.contenedor{
-    background-color: #9ED2BE;
-    display: list-item;
-    font-family: 'Catamaran', sans-serif;
-    height: 30px;
-    width: 100px;
-    margin: 20px;
-    box-sizing: content-box;
-    position: static;
-    top: px;
-    text-align: left;
-    
+.registro .boton {
+    width: 100%;
+    height:45px ;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.registro .link {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Montserrat'
+}
+
+.registro .link a {
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
 }
