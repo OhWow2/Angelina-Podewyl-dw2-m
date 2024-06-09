@@ -1,0 +1,58 @@
+body {
+    background-color: #e8eef2;
+
+}
+h2,h3,h4{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center
+}
+
+p {
+    font-family: 'Catamaran', sans-serif;
+}
+
+
+.largo {
+    background-color: #e1c9cd;
+}
+
+.pestañas {
+    background-color: #dfb3ac;
+    display: inline;
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+}
+
+footer {
+    background-color: #cfd7e3
+}
+
+a {text-decoration: none;}
+
+.contactos{
+    background-color:#e6d9de;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.ayuda{
+    display: inline;
+}
+
+.contenedor{
+    background-color: #dfb3ac;
+    display: inline-block;
+    font-family: 'Catamaran', sans-serif;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    box-sizing:border-box;
+    position: relative;
+    left: 110px;
+    top: 20px;
+    text-align: center;
+    
+}

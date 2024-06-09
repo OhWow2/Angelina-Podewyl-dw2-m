@@ -69,6 +69,7 @@ h1{
     outline: none;
     border-radius: 50px;
     font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
 }
 
 .registro .link {
