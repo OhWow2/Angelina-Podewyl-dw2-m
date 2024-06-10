@@ -39,12 +39,12 @@ function inicioSesion(){
 
 let contraseñaNueva
 function actualizarContraseña(){
-    emailIngresado= prompt("Ingrese el Email")
-    contraseña = prompt("Ingrese la contraseña")
-    if(email== emailIngresado && contraseña ==contraseñaIngresado){
-        contraseñaNueva= prompt("Ingrese la nueva contraseña")
-        contraseña = contraseñaNueva;
-        alert(contraseña);
+    emailNuevo= prompt("Ingrese el Email")
+    contraseñaNueva = prompt("Ingrese la contraseña")
+    if(emailNuevo== email && contraseñaNueva ==contraseña){
+        contraseñaAct= prompt("Ingrese la nueva contraseña")
+        contraseña = contraseñaAct;
+        alert("Su nueva contraseña es " + contraseña);
     }else{
         alert("Ingrese un GMAIL o Contraseña valida")
     }
